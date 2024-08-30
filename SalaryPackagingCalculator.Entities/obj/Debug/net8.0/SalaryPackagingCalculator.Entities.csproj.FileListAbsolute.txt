@@ -1,0 +1,11 @@
+/Users/furkansakizci/Desktop/Projects/leaseplus/SalaryPackagingCalculator/SalaryPackagingCalculator.Entities/bin/Debug/net8.0/SalaryPackagingCalculator.Entities.deps.json
+/Users/furkansakizci/Desktop/Projects/leaseplus/SalaryPackagingCalculator/SalaryPackagingCalculator.Entities/bin/Debug/net8.0/SalaryPackagingCalculator.Entities.dll
+/Users/furkansakizci/Desktop/Projects/leaseplus/SalaryPackagingCalculator/SalaryPackagingCalculator.Entities/bin/Debug/net8.0/SalaryPackagingCalculator.Entities.pdb
+/Users/furkansakizci/Desktop/Projects/leaseplus/SalaryPackagingCalculator/SalaryPackagingCalculator.Entities/obj/Debug/net8.0/SalaryPackagingCalculator.Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/furkansakizci/Desktop/Projects/leaseplus/SalaryPackagingCalculator/SalaryPackagingCalculator.Entities/obj/Debug/net8.0/SalaryPackagingCalculator.Entities.AssemblyInfoInputs.cache
+/Users/furkansakizci/Desktop/Projects/leaseplus/SalaryPackagingCalculator/SalaryPackagingCalculator.Entities/obj/Debug/net8.0/SalaryPackagingCalculator.Entities.AssemblyInfo.cs
+/Users/furkansakizci/Desktop/Projects/leaseplus/SalaryPackagingCalculator/SalaryPackagingCalculator.Entities/obj/Debug/net8.0/SalaryPackagingCalculator.Entities.csproj.CoreCompileInputs.cache
+/Users/furkansakizci/Desktop/Projects/leaseplus/SalaryPackagingCalculator/SalaryPackagingCalculator.Entities/obj/Debug/net8.0/SalaryPackagingCalculator.Entities.dll
+/Users/furkansakizci/Desktop/Projects/leaseplus/SalaryPackagingCalculator/SalaryPackagingCalculator.Entities/obj/Debug/net8.0/refint/SalaryPackagingCalculator.Entities.dll
+/Users/furkansakizci/Desktop/Projects/leaseplus/SalaryPackagingCalculator/SalaryPackagingCalculator.Entities/obj/Debug/net8.0/SalaryPackagingCalculator.Entities.pdb
+/Users/furkansakizci/Desktop/Projects/leaseplus/SalaryPackagingCalculator/SalaryPackagingCalculator.Entities/obj/Debug/net8.0/ref/SalaryPackagingCalculator.Entities.dll

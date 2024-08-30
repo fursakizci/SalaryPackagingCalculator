@@ -1,0 +1,49 @@
+﻿@using SalaryPackagingCalculator.Entities.Enum
+@model SalaryPackagingCalculator.Entities.Employee
+
+@{
+    ViewData["Title"] = "Salary Packaging Calculator";
+}
+
+<h2>Salary Packaging Calculator</h2>
+
+<form asp-action="Calculate" asp-controller="Home" method="post">
+    <div>
+        <label>Company Type:</label>
+        <select asp-for="CompanyType" asp-items="Html.GetEnumSelectList<CompanyType>()" required>
+            <option value="">Select a Company Type</option>
+        </select>
+        <span asp-validation-for="CompanyType" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>Employment Type:</label>
+        <select asp-for="EmploymentType" asp-items="Html.GetEnumSelectList<EmploymentType>()" required>
+             <option value="">Select a Employment Type</option>
+        </select>
+        <span asp-validation-for="EmploymentType" class="text-danger"></span>
+    </div>
+    
+    <div>
+        <label>Salary:</label>
+        <input asp-for="Salary" type="number" required/>
+        <span asp-validation-for="Salary" class="text-danger"></span>
+    </div>
+    
+    <div>
+        <label>Hours Worked (Weekly):</label>
+        <input asp-for="HoursWorked" type="number" min="0" value="0"/>
+    </div>
+    
+    <div>
+        <label>Education Status:</label>
+        <input asp-for="IsEducated" type="checkbox"/>
+    </div>
+    
+    <button type="submit">Calculate</button>
+</form>
+
+@if (ViewBag.PackageLimit != null)
+{
+    <h3>Result: @ViewBag.PackageLimit</h3>
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/SalaryPackagingCalculator.WebMVC.props" />
+</Project>

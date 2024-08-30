@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "SalaryPackagingCalculator.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SalaryPackagingCalculator.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SalaryPackagingCalculator.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SalaryPackagingCalculator.Entities/1.0.0": {
+      "type": "project",
+      "path": "../SalaryPackagingCalculator.Entities/SalaryPackagingCalculator.Entities.csproj",
+      "msbuildProject": "../SalaryPackagingCalculator.Entities/SalaryPackagingCalculator.Entities.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "SalaryPackagingCalculator.Entities >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/furkansakizci/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/furkansakizci/Desktop/Projects/leaseplus/SalaryPackagingCalculator/SalaryPackagingCalculator.Service/SalaryPackagingCalculator.Service.csproj",
+      "projectName": "SalaryPackagingCalculator.Service",
+      "projectPath": "/Users/furkansakizci/Desktop/Projects/leaseplus/SalaryPackagingCalculator/SalaryPackagingCalculator.Service/SalaryPackagingCalculator.Service.csproj",
+      "packagesPath": "/Users/furkansakizci/.nuget/packages/",
+      "outputPath": "/Users/furkansakizci/Desktop/Projects/leaseplus/SalaryPackagingCalculator/SalaryPackagingCalculator.Service/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/furkansakizci/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/furkansakizci/Desktop/Projects/leaseplus/SalaryPackagingCalculator/SalaryPackagingCalculator.Entities/SalaryPackagingCalculator.Entities.csproj": {
+              "projectPath": "/Users/furkansakizci/Desktop/Projects/leaseplus/SalaryPackagingCalculator/SalaryPackagingCalculator.Entities/SalaryPackagingCalculator.Entities.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
